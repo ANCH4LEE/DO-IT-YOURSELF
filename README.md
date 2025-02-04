@@ -33,7 +33,7 @@ docker-compose up -d
 - จะเปิด localhost:8080 สำหรับ Rest API
 - ทำการเปิดโฟลเดอร์ Page_DIY จาก [Page_DIY](Page_DIY/diy)
 - Run Server
-- ```bash 
+```bash 
 npm start
 ```
 - เปิด localhost:3000 สำหรับ React
