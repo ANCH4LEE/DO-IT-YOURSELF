@@ -14,18 +14,26 @@
 | อภิญญา แซ่อึ้ง | Frontend Developer | พัฒนาและออกแบบฝั่ง Frontend |
 
 # 🖥️เทคโนโลยีที่ใช้
--Frontend: React
--Backend: Rest Api with Golang
--Database: PostgreSQL
--อื่น ๆ: Docker
+- Frontend: React
+- Backend: Rest Api with Golang
+- Database: PostgreSQL
+- อื่น ๆ: Docker
 
 # 🔌วิธีติดตั้งและใช้งาน
--ทำการเปิดโฟลเดอร์ storedatabase จาก [store database](storedatabase)
--Run Folder ด้วย Docker ใช้คำสั่ง 
+- ทำการเปิดโฟลเดอร์ storedatabase จาก [store database](storedatabase)
+- Run Folder ด้วย Docker ใช้คำสั่ง 
 ```bash 
 docker-compose up -d 
 ```
--จากนั้นเปิดโฟลเดอร์ ecommercestore จาก [ecommerce](ecommercestore)
+- จากนั้นเปิดโฟลเดอร์ ecommercestore จาก [ecommerce](ecommercestore)
 ```bash 
 docker-compose up -d 
 ```
+- เปิด localhost:5050 สำหรับ PostgreSQL
+- จะเปิด localhost:8080 สำหรับ Rest API
+- ทำการเปิดโฟลเดอร์ Page_DIY จาก [Page_DIY](Page_DIY/diy)
+- Run Server
+- ```bash 
+npm start
+```
+- เปิด localhost:3000 สำหรับ React
